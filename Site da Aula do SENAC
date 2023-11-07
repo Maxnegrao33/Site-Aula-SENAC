@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Maciel Oliveira">
+    <title>Posicionamento Relativo Pt-3</title>
+</head>
+<body>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lato:ital,wght@1,900&family=Roboto:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    width: 1200px;
+    height: 1100px;
+}
+
+header {
+    position: relative;
+    width: 1200px;
+    height: 150px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 3);
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 2px;
+    font-size: 42px;
+    padding: 50px 0;
+}
+
+.perfil{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 500px;
+}
+
+.perfil:hover{
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 3);
+}
+
+
+#ft.perfil-1{
+    position: relative;
+    border-radius: 100px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+#ft.perfil-2{
+    position: relative;
+    border-radius: 100px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+#ft.perfil-3{
+    position: relative;
+    border-radius: 100px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.testimony{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 100px 10px 20px 10px;
+    text-align: justify;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 0 0 12px 0;
+    letter-spacing: 2px;
+}
+
+.ocupation {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #d5d2d2;
+}
+
+.img{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+}
+
+.picture{
+    position: relative;
+    float: left;
+    width: 1200px;
+    height: 400px;
+}
+
+
+</style>
+    <div id="container">
+        <header>
+            <h1>Depoimento da Equipe</h1>
+        </header>
+
+        <!--Emily-->
+        <div class="perfil">
+            <img id="ft-perfil-1" src="/img/image-emily.jpg" alt="membro da equipe">
+            <div class="testimony">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius dicta laudantium magni ea, odit fuga facere sequi praesentium harum quaerat dolore in quasi ab minima distinctio vitae tempore accusantium!
+            </div>
+
+            <div class="name"></div>
+            Emily
+            </div>
+
+            <div class="ocupation">
+            Scrum Master
+           
+        </div>
+        <!--Fim Emily-->
+
+
+
+        <!--Thomas-->
+        <div class="perfil">
+            <img id="ft-perfil-2" src="/img/image-thomas.jpg" alt="membro da equipe">
+            <div>
+                <div class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius dicta laudantium magni ea, odit fuga facere sequi praesentium harum quaerat dolore in quasi ab minima distinctio vitae tempore accusantium!
+                    </div>
+        
+                <div class="name"></div>
+                    Thomaz
+                </div>
+        
+                <div class="ocupation">
+                    Dev Ops
+                </div>
+            </div>
+            <div id="img">
+
+            </div>
+        </div>
+        <!--Fim Thomas-->
+
+
+
+        <!--Jenny-->
+        <div class="perfil">
+            <img id="ft-perfil-3" src="/img/image-jennie.jpg" alt="membro da equipe">
+            <div class="testimony">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius dicta laudantium magni ea, odit fuga facere sequi praesentium harum quaerat dolore in quasi ab minima distinctio vitae tempore accusantium!
+             </div>
+    
+            <div class="name">
+                Jennie
+            </div>
+                
+            </div>
+    
+            <div class="ocupation">
+                PO
+            </div>
+        </div>
+
+        <div id="img">
+
+        </div>
+        <!--Fim conteúdo-->
+
+        <!--Imagens-->
+        <div id="img">
+            <div>
+                <img class="pictures" src="/img/leite.jpg" alt="imagem ilustrativa">
+            </div>
+            
+            <div>
+                <img class="pictures" src="/img/laranja.jpg" alt="imagem ilustrativa">
+            </div>
+
+            <div>
+                <img class="pictures" src="/img/casquinha.jpg" alt="imagem ilustrativa">
+            </div>
+
+            <div>
+                <img class="pictures" src="/img/cubos.jpg" alt="imagem ilustrativa">
+            </div>
+        </div>
+
+    </div>
+
+    <!--Fim Jennie-->
+
+</body>
+</html>
